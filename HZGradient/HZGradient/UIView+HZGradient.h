@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (HZGradient)
 
++ (UIView *_Nullable)hz_gradientViewWithColors:(NSArray<UIColor *> *_Nullable)colors startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint;
+    
+- (void)hz_setGradientBackgroundWithColors:(NSArray<UIColor *> *_Nullable)colors startPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint;
+    
 @end
 
 NS_ASSUME_NONNULL_END

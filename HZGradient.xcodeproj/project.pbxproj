@@ -15,6 +15,7 @@
 		E1532F0921F81328005F9C8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1532F0821F81328005F9C8A /* main.m */; };
 		E1532F1321F81328005F9C8A /* HZGradientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1532F1221F81328005F9C8A /* HZGradientTests.m */; };
 		E1532F1E21F81329005F9C8A /* HZGradientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1532F1D21F81329005F9C8A /* HZGradientUITests.m */; };
+		E1532F2E21F81386005F9C8A /* UIView+HZGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = E1532F2D21F81386005F9C8A /* UIView+HZGradient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E1532F1921F81329005F9C8A /* HZGradientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZGradientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1532F1D21F81329005F9C8A /* HZGradientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZGradientUITests.m; sourceTree = "<group>"; };
 		E1532F1F21F81329005F9C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1532F2C21F81386005F9C8A /* UIView+HZGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HZGradient.h"; sourceTree = "<group>"; };
+		E1532F2D21F81386005F9C8A /* UIView+HZGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HZGradient.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		E1532EF821F81323005F9C8A /* HZGradient */ = {
 			isa = PBXGroup;
 			children = (
+				E1532F2B21F8135B005F9C8A /* HZGradient */,
 				E1532EF921F81323005F9C8A /* AppDelegate.h */,
 				E1532EFA21F81323005F9C8A /* AppDelegate.m */,
 				E1532EFC21F81323005F9C8A /* ViewController.h */,
@@ -130,6 +134,15 @@
 				E1532F1F21F81329005F9C8A /* Info.plist */,
 			);
 			path = HZGradientUITests;
+			sourceTree = "<group>";
+		};
+		E1532F2B21F8135B005F9C8A /* HZGradient */ = {
+			isa = PBXGroup;
+			children = (
+				E1532F2C21F81386005F9C8A /* UIView+HZGradient.h */,
+				E1532F2D21F81386005F9C8A /* UIView+HZGradient.m */,
+			);
+			path = HZGradient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				E1532EFE21F81323005F9C8A /* ViewController.m in Sources */,
 				E1532F0921F81328005F9C8A /* main.m in Sources */,
+				E1532F2E21F81386005F9C8A /* UIView+HZGradient.m in Sources */,
 				E1532EFB21F81323005F9C8A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B3539P8YN;
 				INFOPLIST_FILE = HZGradient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B3539P8YN;
 				INFOPLIST_FILE = HZGradient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
