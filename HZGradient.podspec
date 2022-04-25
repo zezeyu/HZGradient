@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
   s.name         = "HZGradient"
   s.version      = "1.1.3"
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '9.0'
   s.summary      = "HZGradient 渐变颜色控件. 1.1.3版本"
   s.homepage     = "https://github.com/zezeyu/HZGradient"
   s.license      = { :type => "MIT", :file => "LICENSE" }
